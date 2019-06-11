@@ -1,0 +1,11 @@
+spring:
+   application:
+      name: email-receiver 
+email:
+   inbox:
+      username: *****
+      password: *****
+      folder: /INBOX
+   host: outlook.office365.com
+   port: 993
+   
