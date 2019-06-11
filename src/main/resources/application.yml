@@ -3,8 +3,8 @@ spring:
       name: email-receiver 
 email:
    inbox:
-      username: *****
-      password: *****
+      username: xxxxx
+      password: xxxxx
       folder: /INBOX
    host: outlook.office365.com
    port: 993
