@@ -1,0 +1,42 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+</head>
+<body>
+<div dir="auto" style="direction: ltr; margin: 0; padding: 0; font-family: sans-serif; font-size: 11pt; color: black; ">
+Control NameTest ControlSome DescriptionTask NameTest TaskSome DescriptionAction RequiredReviewSome DescriptionSuperviseeSome DescriptionSupervisor<a href="tel:&#43;4412345678">12345678</a>Some DescriptionTask DescriptionHello this is Dummy TaskSome DescriptionStart
+ Date19 JUN&nbsp;<a href="tel:&#43;442019">2019</a>Some DescriptionDue Date02-Jul-20Some DescriptionReminder Date01-Jul-20Some Description<br>
+<br>
+<br>
+</div>
+<div dir="auto" style="direction: ltr; margin: 0; padding: 0; font-family: sans-serif; font-size: 11pt; color: black; ">
+<b>Kind regards,</b>&nbsp;<br>
+<br>
+</div>
+<div dir="auto" style="direction: ltr; margin: 0; padding: 0; font-family: sans-serif; font-size: 11pt; color: black; ">
+<font color="#424242">Radonja Prelevic</font><br>
+<br>
+</div>
+<div dir="auto" style="direction: ltr; margin: 0; padding: 0; font-family: sans-serif; font-size: 11pt; color: black; ">
+Junior Associate - Synechron Technology<br>
+</div>
+<div dir="auto" style="direction: ltr; margin: 0; padding: 0; font-family: sans-serif; font-size: 11pt; color: black; ">
+Mobile&nbsp;<a href="tel:&#43;447999975203">&#43;44 799 9975 203</a><br>
+</div>
+<div dir="auto" style="direction: ltr; margin: 0; padding: 0; font-family: sans-serif; font-size: 11pt; color: black; ">
+Level 4, 95 Gresham Street, London - EC2V 7NA, United Kingdom<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div dir="auto" style="direction: ltr; margin: 0; padding: 0; font-family: sans-serif; font-size: 11pt; color: black; ">
+<span id="OutlookSignature">
+<div dir="auto" style="direction: ltr; margin: 0; padding: 0; font-family: sans-serif; font-size: 11pt; color: black; ">
+Get <a href="https://aka.ms/ghei36">Outlook for Android</a></div>
+</span><br>
+</div>
+Disclaimer:- This email, attachments and any information contained therein is intended solely for the use of the individual or entity to whom it is addressed and may be confidential and/or privileged data of Synechron. If you are not the intended recipient
+ of this email, you are requested not to disclose the same and immediately notify the sender by reply email and further delete the said email along with any and all attachments appended thereto. Internet communications cannot be guaranteed to be timely, secure,
+ error or virus-free. Synechron or any of its affiliates does not accept any liability for virus infected email or errors or omissions or consequences which may arise as a result of this email transmission.
+</body>
+</html>

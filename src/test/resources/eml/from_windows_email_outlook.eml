@@ -1,0 +1,336 @@
+Received: from VE1EUR02HT078.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:803:f0::34) by VI1PR0501MB2656.eurprd05.prod.outlook.com with
+ HTTPS via VI1PR04CA0136.EURPRD04.PROD.OUTLOOK.COM; Wed, 19 Jun 2019 13:15:52
+ +0000
+Received: from VE1EUR02FT053.eop-EUR02.prod.protection.outlook.com
+ (10.152.12.56) by VE1EUR02HT078.eop-EUR02.prod.protection.outlook.com
+ (10.152.13.62) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1987.11; Wed, 19 Jun
+ 2019 13:15:52 +0000
+Authentication-Results: spf=pass (sender IP is 40.92.66.42)
+ smtp.mailfrom=hotmail.com; hotmail.com; dkim=pass (signature was verified)
+ header.d=hotmail.com;hotmail.com; dmarc=pass action=none
+ header.from=hotmail.com;
+Received-SPF: Pass (protection.outlook.com: domain of hotmail.com designates
+ 40.92.66.42 as permitted sender) receiver=protection.outlook.com;
+ client-ip=40.92.66.42; helo=EUR01-VE1-obe.outbound.protection.outlook.com;
+Received: from EUR01-VE1-obe.outbound.protection.outlook.com (40.92.66.42) by
+ VE1EUR02FT053.mail.protection.outlook.com (10.152.13.137) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2008.13 via Frontend Transport; Wed, 19 Jun 2019 13:15:52 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:DBE35E952832BBDB3EF25FD6DE8BD6ECE42436C60B28AA05865F2DA857AD3BA7;UpperCasedChecksum:9B3787D0B7147B658F1CA3D314281A19C1EED3E9F9E59381D74A10F7C4DD57A3;SizeAsReceived:4172;Count:35
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=bNrxFtHYZ5K2dUlTCzQZS5UU8eY4seU6r7fVaM50QRo=;
+ b=rQzOsqyuLdJEWXdxBK9dp1t0XdNmroIqNOfQnpQX69WBRtFu9//PZqJy/uDo/0ickna5qbpRgos1T2ye87pDAqsZ3UHrLFP2qXuUchsI/vR4GA1mcb970izxr7DwlILB0ehYqlDCgt09kc7vtwNnLP1tgpF8P29yZ8Vn7yKa7ICzLsDQb5vv6FNgsn7TlYPj1R9Wk2alKRbtHfB+R435YnqBvdJ5Ds8eVmVFVNEc6JdcxL65VNtV9sFk7g9T+u6rbFJmZPDASMl1ERqH2tPdJINc/wsVwlX0lfO27M6nNKo45yI2aUwWgWxkLcF7pkrg1pTEAoRKnecMEFeRtfECIg==
+Received: from DB5EUR01FT040.eop-EUR01.prod.protection.outlook.com
+ (10.152.4.58) by DB5EUR01HT051.eop-EUR01.prod.protection.outlook.com
+ (10.152.4.174) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2008.13; Wed, 19 Jun
+ 2019 13:15:51 +0000
+Received: from VI1PR0501MB2656.eurprd05.prod.outlook.com (10.152.4.56) by
+ DB5EUR01FT040.mail.protection.outlook.com (10.152.5.25) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2008.13 via Frontend Transport; Wed, 19 Jun 2019 13:15:51 +0000
+Received: from VI1PR0501MB2656.eurprd05.prod.outlook.com
+ ([fe80::146b:520e:fdd2:2c49]) by VI1PR0501MB2656.eurprd05.prod.outlook.com
+ ([fe80::146b:520e:fdd2:2c49%9]) with mapi id 15.20.1987.014; Wed, 19 Jun 2019
+ 13:15:51 +0000
+From: Radonja Prelevic <radonja97@hotmail.com>
+To: Radonja Prelevic <radonja97@hotmail.com>
+Subject: from_windows_email_outlook
+Thread-Topic: from_windows_email_outlook
+Thread-Index: AQHVJqENmOtLMgNZrEmWUhKn7Mw74w==
+Date: Wed, 19 Jun 2019 13:15:51 +0000
+Message-ID: <VI1PR0501MB2656D5052B48157E81323E06BCE50@VI1PR0501MB2656.eurprd05.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:233B51DD5AE1314AE294D7DDBEA6549593DEDF5F2EF8BEB7FE3B7AF23B4CD7B0;UpperCasedChecksum:61432D40E0AB6F5FCBD3AD45CA113E32A336E6763B5F139501F49387A1C47419;SizeAsReceived:6509;Count:40
+x-tmn: [es8x8H/ALXRgpZ0HVNVgkFEPaRRlqBGd]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 40
+x-eopattributedmessage: 1
+x-ms-exchange-slblob-mailprops: cR2SUrTzBEtbTFT1TLU/j2gZfepVHz3MUlmPBHrmgeTALhkKmt50s39aWaYWQMFfAPn/fh3bKj9ONn86kWgKIHv/Wv/tZN1j2hVJAcwSxdwcJK7F9uLEJimAqwAg+jWMx0GofWk+4RQjdY+ljMEIfXPQdXF0DLmLOFhvX+BN0cNpYm6P+NjU7TBAfvrDojTGnuSchd1LureCuwNI0OQMzn60Cap8AJ21RWWvgwHTbng+TRR8Xa7NS0/xJDjJn9y4g8zT1JioRZjKAA1Gn9+qZ695mo7JY/8npvGWkmnJzJtc8oFGfQFGQd+UHFeLPTne5pAaFA0G9y2kY/IuSFTz0FAT5aCXR0W/cKdZusDzckobwvxRvGPGqkGNF3H/vTAp0n66sNB/4uoI8C9B8xViKABximFRAzqYGjQWqYsf6i7SiwaH8DrTW7+qmUAn40E8BkZZM4r1c90gh4nPaGZH1wFDDkAnB7Amnr54AGY3DZPuM6dmAL9zdqcL/xcfevQ3uWRINEppmZ0k2BnYReOr9BS11RWcTOow4UliuBibodQYs87ABFL2HNuL+pb44j8M42yPf++u1syGPq8kOVI0tKnOWgb3bOuPEbpSCupV0WWec8oVc7ETUMYDokgg1mEDLy870WaHo63XlhGtIbcr0PE2KGNr77AH
+X-Microsoft-Antispam-Untrusted:
+ BCL:0;PCL:0;RULEID:(2390118)(5050001)(7020095)(20181119110)(201702061078)(5061506573)(5061507331)(1603103135)(2017031320274)(2017031324274)(2017031323274)(201702181274)(2017031322404)(1601125500)(1603101475)(1701031045);SRVR:DB5EUR01HT051;
+X-MS-TrafficTypeDiagnostic: DB5EUR01HT051:|VE1EUR02HT078:
+X-MS-Exchange-PUrlCount: 1
+X-Microsoft-Antispam-Message-Info-Original:
+ 2uVdWGX9jxwIvTbHKQOJhUx5BQ6AnFDg8oXEjN9wbd3M8EDJ0QWpVuqaGGw03/Aowcb3P7LnZm8v/WmMIP2G/DI4qWh8wx+N7cih3dl0RpEgYIfEWntKumNOxCTkerb2R3Ppwl6MwCn+1tHWLSrRZ+jXMqep9MHHcN5iZEpQa8TklxhT7fKH6rsJ0/v4aVng
+Content-Type: multipart/alternative;
+	boundary="_000_VI1PR0501MB2656D5052B48157E81323E06BCE50VI1PR0501MB2656_"
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB5EUR01HT051
+X-IncomingHeaderCount: 35
+Return-Path: radonja97@hotmail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Jun 2019 13:15:52.3234
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 796fa02b-c6e0-465d-5052-08d6f4b8411f
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ VE1EUR02FT053.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted:
+ VE1EUR02FT053.eop-EUR02.prod.protection.outlook.com
+X-Forefront-Antispam-Report: EFV:NLI;
+X-MS-Exchange-Organization-AuthSource:
+ VE1EUR02FT053.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/19/2019 1:15:24 PM
+X-MS-Office365-Filtering-Correlation-Id: 796fa02b-c6e0-465d-5052-08d6f4b8411f
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(5000113)(711020)(4605104)(610169)(650170)(651021)(8291501072);SRVR:VE1EUR02HT078;
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 40.92.66.42
+X-SID-PRA: RADONJA97@HOTMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Jun 2019 13:15:52.2414
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 796fa02b-c6e0-465d-5052-08d6f4b8411f
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VE1EUR02HT078
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.5288077
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1987.013
+X-Message-Flag: Follow up
+X-Microsoft-Antispam-Mailbox-Delivery:
+	dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;OFR:SpamFilterPass;ENG:(5062000261)(5061607266)(5061608174)(1004385)(4900115)(4920090)(6220004)(4950130)(4990090)(9110004);
+X-Message-Info:
+	5vMbyqxGkdfaxZpZmArUlXeEBYzxb4++U5Y6PPbJfAejCBrieROY59B+mBRHWgtOQV2ZnLt8Lfi2JFhiNZ+GU+t/MmViMommnqZMCGsVNAbITPRCy2TZSdSUcwSasyO5ZSWUz64QbAh9s5h+FtyLnmfg/cZgJVTKvSJ5RRN3fvikU1GBrSO2BVVQD51dXcRTGD37xZhweMN3JGGkPJ1ZJg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	CaJ341MbteN9gHszgIJMOSw2r8s593+CPpzWJWVZN/f8JaFYjDQgiUtMNSUBD7OaPMlxYfkbzfttNH3awnHvEKpOqtSVVyIFKMy6xut0iX9/ayhEqTShKMXL+3aM1s3rH5AVlS/gEi+kiWJmcfSaVk4lwPd2dOhkwiA89ykwn8/XGfge+gSmK33Opfw/ATkrw0WJGEcMIsYZC/dn09z7NTUGMp3Oj//VszZfcGiq6w268CfBsCFtK1uuUWpYy2hVQHNk6LUnv+Sq6dftkm+pMvDKan5y2RL6fOXTCol/wf2JT1w/00WXNJvQdbXYLta2Vx9SpfyPnJanvJnMV2JGgH24XJd+Is7ja3vER8YXnuWQiUqsjEn6vEgc285bxhRAreHWFAM2A16oYLaC2caBCZEGGmWgD/pTVcQYxcgK1AkZiFLQtB+k7oyQC68igqCND8O3kbpQAbkl4lbW4G4JJSasmQ5N3P1DWtwWX2TXqGR1/WHbBpRjETFlFkpXqhdoDqssO45BVpcObZ5QluJpdm7dzUBbZtla2pUVp4mivXgO+QWs3mUAel5iIxNpqx7E46+3Mps00EzCJZvMkknN9yfkWE7FcCu8/dJRe20VJN08Ryzyj6hwJxfWovnFBuiJo2Gvx7Kxpi1tKubCe0dECuejwebqBTGaqZhsKB5u7w23RH7qz9GhqB3YG5EQq5cCOXknwAzXtMoKiVLL2gubP7QGOHMRBDS37LNVpsUIZNlSzqV3tJiCFR2v0PP3f0zVnphpGtZGfZrbsDiHUwL4U8n2awEt5Fp5igKtQ7bOWlQv5YQVto4y5pEId965kgHhulsIgkTS98oYaIhTC5+WqyefUcuaaQSRLGEgNmm4W5I=
+MIME-Version: 1.0
+
+--_000_VI1PR0501MB2656D5052B48157E81323E06BCE50VI1PR0501MB2656_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+Control Name
+Test Control
+Some Description
+Task Name
+Test Task
+Some Description
+Action Required
+Review
+Some Description
+Supervisee
+Some Description
+Supervisor
+12345678
+Some Description
+Task Description
+Hello this is Dummy Task
+Some Description
+Start Date
+19 JUN 2019
+Some Description
+Due Date
+02-Jul-20
+Some Description
+Reminder Date
+01-Jul-20
+Some Description
+
+
+Sent from Mail<https://go.microsoft.com/fwlink/?LinkId=3D550986> for Window=
+s 10
+
+
+--_000_VI1PR0501MB2656D5052B48157E81323E06BCE50VI1PR0501MB2656_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<table class=3D"MsoNormalTable" border=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Control Name<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Test Control<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Task Name<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Test Task<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Action Required<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Review<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Supervisee<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt"></td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Supervisor<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">12345678<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Task Description<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Hello this is Dummy Task<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Start Date<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">19 JUN 2019<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Due Date<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">02-Jul-20<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Reminder Date<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">01-Jul-20<o:p></o:p></span></p>
+</td>
+<td style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif">Some Description<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Sent from <a href=3D"https://go.microsoft.com/fwlink=
+/?LinkId=3D550986">
+Mail</a> for Windows 10</p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_VI1PR0501MB2656D5052B48157E81323E06BCE50VI1PR0501MB2656_--

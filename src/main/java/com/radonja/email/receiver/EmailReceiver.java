@@ -38,7 +38,7 @@ public class EmailReceiver implements MessageHandler {
 			String content = getMessageContent(mimeMessage);
 			printContentToFile(mimeMessage, content);
 			printMessageToFile(mimeMessage);
-			
+			printMessageToEml(mimeMessage);
 			log.info("\n{}", content);
 		} catch (MessagingException | IOException e) {
 			log.error("Error occured: {}", e);
@@ -67,9 +67,15 @@ public class EmailReceiver implements MessageHandler {
 		file.createNewFile();
 		message.writeTo(new FileOutputStream(file));
 	}
+
+	public void printMessageToEml(MimeMessage message) throws MessagingException, IOException {
+		File file = new File("src/test/resources/eml/" + message.getSubject() + ".eml");
+		file.createNewFile();
+		message.writeTo(new FileOutputStream(file));
+	}
 	
 	public void printContentToFile(MimeMessage message, String content) throws MessagingException, IOException {
-		Files.write(Paths.get("src/test/resources/" + message.getSubject() + "-string_content.txt"), content.getBytes());
+		Files.write(Paths.get("src/test/resources/content-only/" + message.getSubject() + "-string_content.txt"), content.getBytes());
 	}
 	
 }

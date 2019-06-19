@@ -1,0 +1,130 @@
+Received: from DB5EUR01HT169.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:802:3f::29) by VI1PR0501MB2656.eurprd05.prod.outlook.com with
+ HTTPS via VI1PR07CA0205.EURPRD07.PROD.OUTLOOK.COM; Wed, 19 Jun 2019 13:18:17
+ +0000
+Received: from DB5EUR01FT055.eop-EUR01.prod.protection.outlook.com
+ (10.152.4.54) by DB5EUR01HT169.eop-EUR01.prod.protection.outlook.com
+ (10.152.5.23) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2008.13; Wed, 19 Jun
+ 2019 13:18:16 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.222.65)
+ smtp.mailfrom=gmail.com; hotmail.com; dkim=pass (signature was verified)
+ header.d=gmail.com;hotmail.com; dmarc=pass action=none header.from=gmail.com;
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 209.85.222.65 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.222.65; helo=mail-ua1-f65.google.com;
+Received: from mail-ua1-f65.google.com (209.85.222.65) by
+ DB5EUR01FT055.mail.protection.outlook.com (10.152.5.250) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2008.13 via Frontend Transport; Wed, 19 Jun 2019 13:18:16 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:DF0F09A546B8CCD404BA47976F9C62A058BA60F38AAF6F57593DA2E487E9DBD7;UpperCasedChecksum:2F25193EE68E06A54F236154A062F021DACD90BE1C055AEE20CF39146EDB7C79;SizeAsReceived:2085;Count:13
+Received: by mail-ua1-f65.google.com with SMTP id o2so9697744uae.10
+        for <radonja97@hotmail.com>; Wed, 19 Jun 2019 06:18:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=3F0ZGEcbioDghEAtPaQB0UTeOsm+Ba6Xcu2B3PNr8W8=;
+        b=qux1zHUG4woyZf3U6/NFd1YCydMujwR6M0w/eyJdVhhTicW2wwn/wgkFYWZPriwvSc
+         6quuNGAAsrXKphEOvUvTtSUEOPLKouTdsR19Wtsat6H2+h6l/qD2Uwg1NW593zXdfnNv
+         of6oyDjffrLkHj77/THQ1IUhEuzKN690wj5wcdeWjAD8UuDCH5hnofp/KhXB2xyjzkO5
+         OWejTvBfRfDLBRC2Ab5MXfA2LRvntlPE8+zZrEdrMojtvY+yDriy2pf89dYu41LKIVwm
+         k/qWGP/Zxg7QkenTHBYOyfOQSqPqk6vYhRPz+LbovUUgTQ2iL1fNlraTQFL6TGvgZPAn
+         UfFA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=3F0ZGEcbioDghEAtPaQB0UTeOsm+Ba6Xcu2B3PNr8W8=;
+        b=MAh/XZ85YLtjkQK53e+brcNaftXgve1Qx958g5uVwi2rd+h1ZOKiIGB95M2Xmmn9hj
+         nelVnA+DYIEOwoBQXd4QJWpqJG02047Gc6uPnF5HKbLejQP9IvlHUNe0vlLhPUMnyTvm
+         cGLJEF+K0cfc+oSYDJX3UUJEBazM1WVJXtOJNRlfmZguoETUy4tasrBGLdGl/h32XfSx
+         45eyX4c3hf11y/ukVBcFmvJsqLn7tdLaPw71vBKHh44NVn3n0ybvTl7qB8/wc70dU4iq
+         o5s66jUEOjqAUPo0c+kp2rJm9YEbDbN6H/xbH8wzLG4JRKOJocx7ujy1tdo42k7jLW9C
+         cvUQ==
+X-Gm-Message-State: APjAAAXYpRxnwiEvIhUVGawWG25d150lbBQbWUr/2eX2wUEcA6KuFyv/
+	mRmtFLIiq3kmPEdpL+FzuPfOnHIHOL+sQwkK/1YSeq4=
+X-Google-Smtp-Source: APXvYqycJo6cZ8NAtMVcbPeoMgqrco2uoV9lY7hJwhwB5FN6LrlRJB2FPgxJpZ4UqId9tiFJM3D7WO9DYVuo8MsSO9k=
+X-Received: by 2002:a67:c016:: with SMTP id v22mr30380544vsi.107.1560950296248;
+ Wed, 19 Jun 2019 06:18:16 -0700 (PDT)
+From: Radonja Prelevic <rudonja8@gmail.com>
+Date: Wed, 19 Jun 2019 14:18:04 +0100
+Message-ID: <CA+FXbdP5Etma0JQpZhn3qEXVsm7i3023JCsXoA-QRPFUUv6NCw@mail.gmail.com>
+Subject: from_chrome_gmail
+To: radonja97@hotmail.com
+Content-Type: multipart/alternative; boundary="000000000000eb8667058bad0f53"
+X-IncomingHeaderCount: 13
+Return-Path: rudonja8@gmail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Jun 2019 13:18:16.7192
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 56b37190-1b29-4869-5cb7-08d6f4b89730
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Forefront-Antispam-Report: EFV:NLI;
+X-MS-Exchange-Organization-AuthSource:
+ DB5EUR01FT055.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-UserLastLogonTime: 6/19/2019 1:15:24 PM
+X-MS-Office365-Filtering-Correlation-Id: 56b37190-1b29-4869-5cb7-08d6f4b89730
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(5000113)(711020)(4605104)(610169)(650170)(651021)(8291501072);SRVR:DB5EUR01HT169;
+X-MS-TrafficTypeDiagnostic: DB5EUR01HT169:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.85.222.65
+X-SID-PRA: RUDONJA8@GMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Jun 2019 13:18:16.6962
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 56b37190-1b29-4869-5cb7-08d6f4b89730
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB5EUR01HT169
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.6712407
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1987.013
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000261)(5061607266)(5061608174)(4900115)(4920090)(6515079)(4950130)(4990090);
+X-Message-Info:
+	5vMbyqxGkdfRHAKRci4EIP8MKfYZiHcbPvgg5b7UgnmBKdlCzd6aQPoTmXHAcoinmCfY9dgEzZ8VlQo+FU9+UxPJVL3o9PF1459Ztkt9dejsMPh7dC0+lNPUjxqlfN/9zvK65bRnfU3lh54cWOkrCHjddgEm5EPGeVwrMnlbg3rCboqTZiXoqMgksuvqUp2GrHlXnocCAzDUZ6HMiQG2RQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	5r1vMnKh85zkyEv3G128aNH1bK+FZqJrxUzf3R1VnC+5YpIUdR5pMdzlbsBQlgzXV+vyFle9rERaiHBeyBOybvC6stlKhBbyFRKI7MQ9zaX2PlIsOU9BuOIpN9XwAwvT1SDeUdLadnrkpzE/up3wbzPWEL6cDu2AEcGxFCVw49ZUUUJUK0c9+mQRtLJcl4YneTgwZo/dyXVflXMLGd5FGYMPdCIoihLodmBhEmeW8BNn/nQkRx6pA0maX3RrLTbKmoumHcritfysiIlzP38NyQuaHYRtJ56/U7NBokoCus3vo7k+2AVxbdANaKdtdL1zk49lCvt5TGq6/SWCuggrWKA0MQ4givnAdkP1AyjApQ4neBiijT2Tdi6LeRzQ6EfL9GT0aloC/2FoXLTcgFLmVwPPIhUcgcg2WCUSOzA2rNYTw+T35ydlhOQiwR1Yj/m0fkhpSZwxuKWnjXe9buhWO/3KRVvhz7LTSHUCeH4cBot+lfGPAG5oxKK0b329NQZtEgA2H8B8rkpnQDUFK7kcycuMgdetEXTV453WnmIUJSdpFGyh87UVhQ4YeMicpABeEGfQfa7Ay5Vo4pc0mT6r6tTmgGDIE1CVA5tDoJ0UnLmgS100qlyU8ziKaZpibusG04JCjX5Lsnn+sm8O3aaN/vBPAmPBM78WU/wwJhNS/2tnBWul7ADJ7urnqVw7Lnp2JpRa3NKVTgiJHHxj8w69Aw==
+MIME-Version: 1.0
+
+--000000000000eb8667058bad0f53
+Content-Type: text/plain; charset="UTF-8"
+
+Control Name Test Control Some Description
+Task Name Test Task Some Description
+Action Required Review Some Description
+Supervisee Some Description
+Supervisor 12345678 Some Description
+Task Description Hello this is Dummy Task Some Description
+Start Date 19 JUN 2019 Some Description
+Due Date 02-Jul-20 Some Description
+Reminder Date 01-Jul-20 Some Description
+
+--000000000000eb8667058bad0f53
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><d=
+iv dir=3D"ltr"><table style=3D"font-family:&quot;Times New Roman&quot;"><tb=
+ody><tr><td>Control Name</td><td>Test Control</td><td>Some Description</td>=
+</tr><tr><td>Task Name</td><td>Test Task</td><td>Some Description</td></tr>=
+<tr><td>Action Required</td><td>Review</td><td>Some Description</td></tr><t=
+r><td>Supervisee</td><td></td><td>Some Description</td></tr><tr><td>Supervi=
+sor</td><td>12345678</td><td>Some Description</td></tr><tr><td>Task Descrip=
+tion</td><td>Hello this is Dummy Task</td><td>Some Description</td></tr><tr=
+><td>Start Date</td><td>19 JUN 2019</td><td>Some Description</td></tr><tr><=
+td>Due Date</td><td>02-Jul-20</td><td>Some Description</td></tr><tr><td>Rem=
+inder Date</td><td>01-Jul-20</td><td>Some Description</td></tr></tbody></ta=
+ble></div>
+
+--000000000000eb8667058bad0f53--
