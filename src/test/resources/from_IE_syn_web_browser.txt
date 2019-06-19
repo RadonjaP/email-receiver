@@ -1,0 +1,219 @@
+Received: from VI1EUR04HT233.eop-eur04.prod.protection.outlook.com
+ (2603:10a6:800:d2::23) by VI1PR0501MB2656.eurprd05.prod.outlook.com with
+ HTTPS via VI1PR08CA0193.EURPRD08.PROD.OUTLOOK.COM; Wed, 19 Jun 2019 09:57:06
+ +0000
+Received: from VI1EUR04FT037.eop-eur04.prod.protection.outlook.com
+ (10.152.28.60) by VI1EUR04HT233.eop-eur04.prod.protection.outlook.com
+ (10.152.28.247) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1987.11; Wed, 19 Jun
+ 2019 09:57:06 +0000
+Authentication-Results: spf=pass (sender IP is 40.107.68.83)
+ smtp.mailfrom=synechron.com; hotmail.com; dkim=pass (signature was verified)
+ header.d=synechron.com;hotmail.com; dmarc=pass action=none
+ header.from=synechron.com;
+Received-SPF: Pass (protection.outlook.com: domain of synechron.com designates
+ 40.107.68.83 as permitted sender) receiver=protection.outlook.com;
+ client-ip=40.107.68.83; helo=NAM04-BN3-obe.outbound.protection.outlook.com;
+Received: from NAM04-BN3-obe.outbound.protection.outlook.com (40.107.68.83) by
+ VI1EUR04FT037.mail.protection.outlook.com (10.152.29.182) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2008.13 via Frontend Transport; Wed, 19 Jun 2019 09:57:06 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:E8AE2DBAB80F3CA3DDCEAEF90A03D44B8AC63AA6EFA200ABF2F86DF694D885FF;UpperCasedChecksum:DA38B14E559D1480212967074174D21ABB0095EADAF6D2516BDCFB074FE181BD;SizeAsReceived:4116;Count:39
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=synechron.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=IDz4p3fvEY7jrPIbGBwIb/fbEMInSCFt7pI2wnVLAOA=;
+ b=EGuiToe6VEa8DAzuZZVRXLs6AAaK9X7sKOPgfmqxWkcWrs/HFC6MQYxKu5/ocUTDKQTwi3vqlFRi4a3ymRkZGmBhbgo2N15cx0owmc+r0zZmyPGJVIHS3UOPi8GWXsYy6v4m57qpWnOBDcBV4X2WjG3URULgWaMjuYW/QdaMik0=
+Received: from MN2PR10MB3535.namprd10.prod.outlook.com (20.179.86.82) by
+ MN2PR10MB3886.namprd10.prod.outlook.com (52.132.173.95) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1987.11; Wed, 19 Jun 2019 09:57:05 +0000
+Received: from MN2PR10MB3535.namprd10.prod.outlook.com
+ ([fe80::bcea:2ef5:e5b7:a260]) by MN2PR10MB3535.namprd10.prod.outlook.com
+ ([fe80::bcea:2ef5:e5b7:a260%6]) with mapi id 15.20.1987.014; Wed, 19 Jun 2019
+ 09:57:05 +0000
+From: Radonja Prelevic <Radonja.Prelevic@synechron.com>
+To: "radonja97@hotmail.com" <radonja97@hotmail.com>
+Subject: from_IE_syn_web_browser
+Thread-Topic: from_IE_syn_web_browser
+Thread-Index: AQHVJoVZhT5ooyXyR0OrljrhfAKXxA==
+Date: Wed, 19 Jun 2019 09:57:05 +0000
+Message-ID: <MN2PR10MB3535972FE000B1E74B7C63AE8DE50@MN2PR10MB3535.namprd10.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=Radonja.Prelevic@synechron.com; 
+x-originating-ip: [167.98.11.196]
+x-ms-publictraffictype: Email
+X-MS-Office365-Filtering-Correlation-Id: 16430e9b-46f8-4f19-0066-08d6f49c7cd1
+x-ms-office365-filtering-ht: Tenant
+X-Microsoft-Antispam-Untrusted: BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(8989299)(4534185)(4627221)(201703031133081)(201702281549075)(8990200)(5600148)(711020)(4605104)(1401327)(4618075)(2017052603328)(7193020);SRVR:MN2PR10MB3886;
+X-MS-TrafficTypeDiagnostic: MN2PR10MB3886:|VI1EUR04HT233:
+x-microsoft-antispam-prvs: <MN2PR10MB3886F68E6087430C141C2ED58DE50@MN2PR10MB3886.namprd10.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:2000;
+x-forefront-prvs: 0073BFEF03
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10009020)(376002)(346002)(39850400004)(366004)(136003)(396003)(199004)(189003)(66446008)(7736002)(7116003)(26005)(25786009)(105004)(6506007)(102836004)(476003)(52536014)(5660300002)(478600001)(72206003)(19627405001)(66574012)(486006)(86362001)(14454004)(66066001)(81156014)(81166006)(8676002)(6436002)(186003)(5640700003)(76116006)(54896002)(68736007)(316002)(8936002)(9686003)(14444005)(1361003)(64756008)(33656002)(74316002)(55016002)(73956011)(6916009)(71190400001)(6116002)(71200400001)(256004)(91956017)(7696005)(2351001)(66946007)(66556008)(66476007)(99286004)(5024004)(2906002)(3846002)(2501003)(53936002);DIR:OUT;SFP:1101;SCL:1;SRVR:MN2PR10MB3886;H:MN2PR10MB3535.namprd10.prod.outlook.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:1;MX:1;
+received-spf: None (protection.outlook.com: synechron.com does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+X-Microsoft-Antispam-Message-Info-Original: udG+gS/fqJ7oiM2qwE0DJ8lnM8gUgnsM17VsJsMVrhkPx1t2Yn+A/QF68dehC/mtZBaF6p4vLnwp7bQusJyf25MdJdmMVwOOVMn0Nhu9xHBFn6wITu8vKxdjnizVY306WwK8oK9nVQvXKwOGhEDE8R6niLgWx9FzZwAzHoZnBPxClg4x/irkvSKiXpWrl4/46OI2rL/uUYXH5IVW3zZaIwpMBK2Das8UkFmFJZIq/jFNLwQw9BLv1HYHCUiR+B3m3YvdZQZ5r/yWAlehNCFXwJUon/RdVKNCdzR/3opPdoDiXoPYU8PcXXP+9zlCLn2KiWM59Nn93hxlHjdj9SIZo19/Gu7MJQq1JsA859Mm1VytYxA1SyWrBLZw4PTyVe406ndvkTAadjCISO+ozPpAjlsa2nCXL7P2OKkcKFKHnGA=
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR10MB3886
+X-IncomingHeaderCount: 39
+Return-Path: Radonja.Prelevic@synechron.com
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Jun 2019 09:57:06.5651
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 16430e9b-46f8-4f19-0066-08d6f49c7cd1
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: VI1EUR04FT037.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: VI1EUR04FT037.eop-eur04.prod.protection.outlook.com
+X-Forefront-Antispam-Report: EFV:NLI;
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR04FT037.eop-eur04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/19/2019 9:50:05 AM
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 6f82f811-4e5d-49d9-546c-08d6f49c7c01
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(5000113)(710020)(711020)(4605104)(610169)(650170)(651021)(8291501072);SRVR:VI1EUR04HT233;
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 40.107.68.83
+X-SID-PRA: RADONJA.PRELEVIC@SYNECHRON.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Jun 2019 09:57:06.4330
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 16430e9b-46f8-4f19-0066-08d6f49c7cd1
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1EUR04HT233
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.5545673
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1987.013
+X-Message-Flag: Follow up
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000261)(5061607266)(5061608174)(4900115)(4920090)(6515079)(4950130)(4990090);
+X-Message-Info:
+	5vMbyqxGkdcHbh/k7z+KPqFDXUS/Pw9Iwp5O9TUK8DDNbDKhVWFwfOJYCpTadLQvFtbYhCL5aVWDh1p5nRtWagaeLxjEqJIElEUjOJHeouBdmk1NmCd4Y3FNYyW6hw1E8qbsokdPN8rfcZMBvDkhtX/5thZhWy6WYAsxEQxSU8fBPg2Zwod7zIoAtwIZjc6nw3bDLm0uh2w=
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	HElUfvAlx7t8XSV9pddbQgRjQ7oHqg0wpiilnltGHnAZSdA0dOxUPQDs5R0lCHs4cyCXwvI8TxW1TKMy16nT4B2uNHRQyXNo4kKnroD/1CmfcXw+DiURH0sM/6aDMtvynMYsRS6KSspVxsfju1vz/0KtiGD//r17tlE77MlszzG5IPYr9aD7PTzpy4OgIyQYUaUXzRHBVdNwk4A98X3bbHpM4Cz/aOUcbAySeJ9I2MxxfLkCiwk3csj/QTyHysnzz8JxUOs6QgyXsIigAq7Ew3womnLOnum+lxC/J5+lpHRdO+lDBTkGp2l1WMD/8Vh7E0+OdfGcDVdtCX4kNKirkTI07biDZLXN04Sa0rG8LDUNAO1+ikvWX2o8+Qxc5AfnKleuogBBFqolq/I8hYwTUwd4cA37exnFqksbVEOzMzPPLq6lBcAKAx7KlZBzFmd7G01RVOM6g4PAQOm2QXdRntAXN2qkQxOWzT5wXdJsuZPZQgV98osLjC5GmW+TkQtBUbTVZVAnRrFnwYLiu+Ez0LuFd80Vn3u9pDojIBlIi49FJ5J250IDA3g8DVob1p6RGYK4tAA2E//rnUGUHVNgTPbsMjUJWT2pK0WeZxgtRPNbxoS9LVFtWdDlAh+9lJS6yZulVcz3U2KwgC+4vk5r+sS52p/EbSDsdcmCaC0DmlZElsXdXuahR/obWSZ3ieo0QhpweJhTQDYZTW9xxRjXjg==
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"color: rgb(0, 0, 0); font-family: Calibri,Arial,Helvetica,san=
+s-serif; font-size: 12pt;">
+<table style=3D"font-family: &quot;Times New Roman&quot;;">
+<tbody>
+<tr>
+<td>Control Name</td>
+<td>Test Control</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Task Name</td>
+<td>Test Task</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Action Required</td>
+<td>Review</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Supervisee</td>
+<td></td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Supervisor</td>
+<td>12345678</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Task Description</td>
+<td>Hello this is Dummy Task</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Start Date</td>
+<td>19 JUN 2019</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>02-Jul-20</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Reminder Date</td>
+<td>01-Jul-20</td>
+<td>Some Description</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<div style=3D"color: rgb(0, 0, 0); font-family: Calibri,Arial,Helvetica,san=
+s-serif; font-size: 12pt;">
+<br>
+</div>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" style=3D"color: rgb(0, 0, 0); font-family:=
+ Calibri,Arial,Helvetica,sans-serif; font-size: 12pt; background-color: rgb=
+(255, 255, 255);" dir=3D"ltr">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"grey" styl=
+e=3D"margin: 0px; padding: 0px; color: rgb(66, 66, 66); line-height: 14.93p=
+x; font-family: Arial,Helvetica,sans-serif; font-size: 8pt;"><b style=3D"ma=
+rgin: 0px; padding: 0px;">Kind regards,</b>&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><font color=3D"#424242" f=
+ace=3D"Arial, Helvetica, sans-serif"><span style=3D"line-height: 14.93px; f=
+ont-size: 10.66px;">Radonja Prelevic<br>
+</span></font><span class=3D"grey" style=3D"margin: 0px; padding: 0px; colo=
+r: rgb(66, 66, 66); line-height: 14.93px; font-family: Arial,Helvetica,sans=
+-serif; font-size: 8pt;"></span><span style=3D"color: rgb(128, 128, 128); l=
+ine-height: 14.93px; font-family: Arial,Helvetica,sans-serif; font-size: 10=
+.66px;"></span></p>
+<p id=3D"signatureInnerContent" style=3D"margin: 0px; padding: 0px; color: =
+rgb(128, 128, 128); line-height: 14.93px; font-family: Arial,Helvetica,sans=
+-serif; font-size: 8pt;">
+Junior Associate&nbsp;- Synechron Technology<br style=3D"margin: 0px; paddi=
+ng: 0px;">
+Mobile <span>&#43;44&nbsp;799&nbsp;9975&nbsp;203</span><br style=3D"margin:=
+ 0px; padding: 0px;">
+<span style=3D"color: rgb(128, 128, 128); font-family: Arial,sans-serif; fo=
+nt-size: 10.66px;">Level 4, 95 Gresham Street, London - EC2V 7NA, United Ki=
+ngdom</span></p>
+<br>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"></p>
+</div>
+</div>
+Disclaimer:- This email, attachments and any information contained therein =
+is intended solely for the use of the individual or entity to whom it is ad=
+dressed and may be confidential and/or privileged data of Synechron. If you=
+ are not the intended recipient
+ of this email, you are requested not to disclose the same and immediately =
+notify the sender by reply email and further delete the said email along wi=
+th any and all attachments appended thereto. Internet communications cannot=
+ be guaranteed to be timely, secure,
+ error or virus-free. Synechron or any of its affiliates does not accept an=
+y liability for virus infected email or errors or omissions or consequences=
+ which may arise as a result of this email transmission.
+</body>
+</html>

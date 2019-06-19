@@ -47,9 +47,9 @@ public class EmailReceiver implements MessageHandler {
 	
 	public String getMessageContent(MimeMessage message) throws MessagingException, IOException {
 		if (!message.isMimeType("multipart/*")) {
-			ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-			message.writeTo(byteArrayOutputStream);
-			return byteArrayOutputStream.toString();
+			// ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+			// message.writeTo(byteArrayOutputStream);
+			return (String) message.getContent();
 		}
 		Multipart multipart = (Multipart) message.getContent();
 		for (int i = 0; i < multipart.getCount(); i++) {

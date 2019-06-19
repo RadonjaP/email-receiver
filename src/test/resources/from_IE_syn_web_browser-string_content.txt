@@ -1,0 +1,78 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css" style="display:none;"> P {margin-top:0;margin-bottom:0;} </style>
+</head>
+<body dir="ltr">
+<div style="color: rgb(0, 0, 0); font-family: Calibri,Arial,Helvetica,sans-serif; font-size: 12pt;">
+<table style="font-family: &quot;Times New Roman&quot;;">
+<tbody>
+<tr>
+<td>Control Name</td>
+<td>Test Control</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Task Name</td>
+<td>Test Task</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Action Required</td>
+<td>Review</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Supervisee</td>
+<td></td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Supervisor</td>
+<td>12345678</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Task Description</td>
+<td>Hello this is Dummy Task</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Start Date</td>
+<td>19 JUN 2019</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>02-Jul-20</td>
+<td>Some Description</td>
+</tr>
+<tr>
+<td>Reminder Date</td>
+<td>01-Jul-20</td>
+<td>Some Description</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<div style="color: rgb(0, 0, 0); font-family: Calibri,Arial,Helvetica,sans-serif; font-size: 12pt;">
+<br>
+</div>
+<div id="Signature">
+<div id="divtagdefaultwrapper" style="color: rgb(0, 0, 0); font-family: Calibri,Arial,Helvetica,sans-serif; font-size: 12pt; background-color: rgb(255, 255, 255);" dir="ltr">
+<p style="margin-top: 0px; margin-bottom: 0px;"><span class="grey" style="margin: 0px; padding: 0px; color: rgb(66, 66, 66); line-height: 14.93px; font-family: Arial,Helvetica,sans-serif; font-size: 8pt;"><b style="margin: 0px; padding: 0px;">Kind regards,</b>&nbsp;</span></p>
+<p style="margin-top: 0px; margin-bottom: 0px;"><font color="#424242" face="Arial, Helvetica, sans-serif"><span style="line-height: 14.93px; font-size: 10.66px;">Radonja Prelevic<br>
+</span></font><span class="grey" style="margin: 0px; padding: 0px; color: rgb(66, 66, 66); line-height: 14.93px; font-family: Arial,Helvetica,sans-serif; font-size: 8pt;"></span><span style="color: rgb(128, 128, 128); line-height: 14.93px; font-family: Arial,Helvetica,sans-serif; font-size: 10.66px;"></span></p>
+<p id="signatureInnerContent" style="margin: 0px; padding: 0px; color: rgb(128, 128, 128); line-height: 14.93px; font-family: Arial,Helvetica,sans-serif; font-size: 8pt;">
+Junior Associate&nbsp;- Synechron Technology<br style="margin: 0px; padding: 0px;">
+Mobile <span>&#43;44&nbsp;799&nbsp;9975&nbsp;203</span><br style="margin: 0px; padding: 0px;">
+<span style="color: rgb(128, 128, 128); font-family: Arial,sans-serif; font-size: 10.66px;">Level 4, 95 Gresham Street, London - EC2V 7NA, United Kingdom</span></p>
+<br>
+<p style="margin-top: 0px; margin-bottom: 0px;"></p>
+</div>
+</div>
+Disclaimer:- This email, attachments and any information contained therein is intended solely for the use of the individual or entity to whom it is addressed and may be confidential and/or privileged data of Synechron. If you are not the intended recipient
+ of this email, you are requested not to disclose the same and immediately notify the sender by reply email and further delete the said email along with any and all attachments appended thereto. Internet communications cannot be guaranteed to be timely, secure,
+ error or virus-free. Synechron or any of its affiliates does not accept any liability for virus infected email or errors or omissions or consequences which may arise as a result of this email transmission.
+</body>
+</html>
